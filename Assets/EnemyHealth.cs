@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
     private float health = 100f;
 
     private void FixedUpdate() {
-        Debug.Log(health);
+        
         if(health <= 0f)
         {
             Destroy(this.gameObject);
